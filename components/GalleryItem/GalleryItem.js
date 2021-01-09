@@ -6,9 +6,7 @@ export default function GalleryItem(props) {
   const { title, year, id } = props.work
   return (
     <StyledGalleryItem>
-      <h3>
-        {title} ({year})
-      </h3>
+      <h3>{title}</h3>
       <Link as={`works/${id}`} href="/works/[id]">
         <img
           src={`/images/${id}.jpg`}
