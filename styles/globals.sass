@@ -1,0 +1,60 @@
+$background-color: #F6EFEE
+$base-color: #30292F
+$accent-color: #df9035
+
+$breakpoint-tablet: 768px
+
+header
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-size: calc(10px + 1vmin)
+  margin-bottom: 4em
+
+body
+  font-family: sans-serif
+  padding: 1em
+  text-align: center
+  background-color: $background-color
+
+ul
+  list-style: none
+  padding: 0
+  margin: 0
+
+img
+  min-width: 60%
+  max-width: 80vw
+  object-fit: cover
+  box-shadow: 0px 4px 15px grey
+
+@media (min-width: $breakpoint-tablet)
+  img
+    max-width: 50vw
+
+p
+  text-align: left
+
+@media (min-width: $breakpoint-tablet)
+  #about p
+    width: 50%
+    margin: auto
+
+h1
+  color: $accent-color
+
+h2, h3
+  color: $base-color
+
+section
+  margin-bottom: 5em
+
+a
+  color: $base-color
+a:visited
+  color: $base-color
+
+form label
+  display: block
+  padding-right: .5em
