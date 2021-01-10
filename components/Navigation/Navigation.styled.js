@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const StyledNavigation = styled.nav`
   font-size: 1em;
-  padding-top: 1em;
   @media (min-width: 1080px) {
     grid-column: 2;
     grid-row: 4 / span 2;

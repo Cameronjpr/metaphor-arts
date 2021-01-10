@@ -7,8 +7,7 @@ export const StyledGallery = styled.section`
   @media (min-width: 1080px) {
     grid-column: 4 / span 10;
     grid-row: 4 / span 11;
+    margin: 0;
   }
-  @media (min-width: 768px) and (max-width: 1080px) {
-    margin: 1em;
-  }
+  margin: 1em;
 `
