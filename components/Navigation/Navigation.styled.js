@@ -7,6 +7,7 @@ export const StyledNavigation = styled.nav`
     grid-column: 2;
     grid-row: 4 / span 2;
     text-align: left;
+    padding: 0;
   }
   text-align: center;
 `

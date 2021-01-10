@@ -1,24 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Header from '../../../components/Header/Header'
+import Navigation from '../../../components/Navigation/Navigation'
+import BigImage from '../../../components/BigImage/BIgImage'
 import { works } from '../../../data/data'
 
 const Work = ({ title, id }) => (
-  <>
-    <nav>
-      <Link href="/">
-        <a>Back</a>
-      </Link>
-    </nav>
-    <h1>{title}</h1>
-    <Image
+  <div className="App">
+    <Header />
+    <Navigation />
+    <BigImage
       src={`/images/${id}.jpg`}
       alt="" // todo
       width={500}
       height={400}
+      title={title}
       quality={100}
-      priority={true}
     />
-  </>
+  </div>
 )
 
 Work.getInitialProps = async ({ query }) => {

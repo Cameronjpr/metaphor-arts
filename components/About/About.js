@@ -1,8 +1,9 @@
 import React from 'react'
+import { StyledAbout } from './About.styled'
 
 export default function About() {
   return (
-    <section id="about">
+    <StyledAbout>
       <h2>About</h2>
       <p>
         Peter Robson is an artist who paints surreal images, often presenting
@@ -37,6 +38,6 @@ export default function About() {
         anniversary of the Bradford pals and the slaughter of life on the Somme
         battlefields of WW1.
       </p>
-    </section>
+    </StyledAbout>
   )
 }

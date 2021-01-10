@@ -11,23 +11,21 @@ export default function Navigation() {
     <StyledNavigation>
       <ul>
         <StyledNavigationLi>
-          <Link href="#work">
-            <a>Work</a>
+          <Link href="/">
+            <a>Works</a>
           </Link>
         </StyledNavigationLi>
         <StyledNavigationLi>
-          <Link href="#about">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </StyledNavigationLi>
         {process.env.NEXT_PUBLIC_CONTACT_EMAIL && (
           <StyledNavigationLi>
-            <Link href="#contact">
-              <a
-                href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}?subject=Feedback from Metaphor Arts website`}
-              >
-                Contact
-              </a>
+            <Link
+              href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}?subject=Feedback from Metaphor Arts website`}
+            >
+              <a>Contact</a>
             </Link>
           </StyledNavigationLi>
         )}
