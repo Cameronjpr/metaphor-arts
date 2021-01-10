@@ -2,14 +2,14 @@ import React from 'react'
 import Link from 'next/link'
 import {
   StyledNavigation,
-  StyledNavigationUl,
+  ul,
   StyledNavigationLi,
 } from './Navigation.styled.js'
 
 export default function Navigation() {
   return (
     <StyledNavigation>
-      <StyledNavigationUl>
+      <ul>
         <StyledNavigationLi>
           <Link href="#work">
             <a>Work</a>
@@ -20,12 +20,18 @@ export default function Navigation() {
             <a>About</a>
           </Link>
         </StyledNavigationLi>
-        <StyledNavigationLi>
-          <Link href="#contact">
-            <a>Contact</a>
-          </Link>
-        </StyledNavigationLi>
-      </StyledNavigationUl>
+        {process.env.NEXT_PUBLIC_CONTACT_EMAIL && (
+          <StyledNavigationLi>
+            <Link href="#contact">
+              <a
+                href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}?subject=Feedback from Metaphor Arts website`}
+              >
+                Contact
+              </a>
+            </Link>
+          </StyledNavigationLi>
+        )}
+      </ul>
     </StyledNavigation>
   )
 }
