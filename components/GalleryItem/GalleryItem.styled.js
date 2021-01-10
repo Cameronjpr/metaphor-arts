@@ -35,9 +35,10 @@ export const StyledGalleryItemImageContainer = styled.div`
   }
   grid-row: 2;
   position: relative;
+  cursor: pointer;
 `
 
-export const StyledGalleryItemYear = styled.h4`
+export const StyledGalleryItemYear = styled.span`
   @media (min-width: 768px) {
     grid-column: 1;
   }

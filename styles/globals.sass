@@ -1,6 +1,6 @@
 $background-color: #FFF
 $base-color: #30292F
-$accent-color: #df9035
+$accent-color: #8F250C
 
 $breakpoint-tablet: 768px
 $breakpoint-desktop: 1080px
@@ -9,9 +9,6 @@ body
   font-family: sans-serif
   margin: 0
   background-color: $background-color
-
-header
-  font-size: calc(10px + 1vmin)
 
 .App
   display: grid
@@ -28,9 +25,10 @@ ul
     grid-template-columns: repeat(14, minmax(0, 7.14vw))
     grid-template-rows: repeat(14, minmax(0, 7.14vh))
     padding: 0
-
-p
-  text-align: left
+  header
+    h1
+      transform: rotate(-5deg)
+      margin-left: -0.5em
 
 h1
   color: $accent-color

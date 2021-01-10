@@ -2,12 +2,19 @@ import Head from 'next/head'
 import Gallery from '../components/Gallery/Gallery'
 import Header from '../components/Header/Header'
 import Navigation from '../components/Navigation/Navigation'
-import styles from '../styles/Home.module.sass'
 
 export default function Home() {
-  console.log(process.env.NEXT_PUBLIC_CONTACT_EMAIL)
   return (
     <div className="App">
+      <Head>
+        <title>Metaphor Arts</title>
+        <meta
+          description="The personal website and gallery of the artist Peter Robson."
+          lang="en-US"
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+        />
+      </Head>
       <Header />
       <Navigation />
       <Gallery />

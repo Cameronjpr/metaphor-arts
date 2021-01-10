@@ -20,7 +20,7 @@ export default function GalleryItem(props) {
             alt={`The painting ${title}, created in ${year}.`}
             layout="fill"
             objectFit="cover"
-            quality={100}
+            quality={75}
           />
         </StyledGalleryItemImageContainer>
       </Link>
