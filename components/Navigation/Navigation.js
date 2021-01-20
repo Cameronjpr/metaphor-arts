@@ -23,7 +23,7 @@ export default function Navigation() {
         {process.env.NEXT_PUBLIC_CONTACT_EMAIL && (
           <StyledNavigationLi>
             <Link
-              href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}?subject=Feedback from Metaphor Arts website`}
+              href={`mailto:test@example.com?subject=Feedback from Metaphor Arts website`}
             >
               <a>Contact</a>
             </Link>

@@ -4,7 +4,7 @@ import { StyledHeader } from './Header.styled'
 export default function Header() {
   return (
     <StyledHeader>
-      <h1>Peter Robson</h1>
+      <h1>Some Artist</h1>
     </StyledHeader>
   )
 }

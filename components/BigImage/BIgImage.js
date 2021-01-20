@@ -6,7 +6,13 @@ export default function BigImage(props) {
   const { src, alt, width, height, title, year } = props
   return (
     <BigImageWrapper>
-      <Image src={src} alt={alt} width={width} height={height} quality={100} />
+      <Image
+        src={'https://source.unsplash.com/800x600'}
+        alt={alt}
+        width={width}
+        height={height}
+        quality={100}
+      />
       <BigImageTitle>{title}</BigImageTitle>
       <span>{year}</span>
     </BigImageWrapper>

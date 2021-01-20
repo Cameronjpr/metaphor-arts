@@ -6,37 +6,13 @@ export default function About() {
     <StyledAbout>
       <h2>About</h2>
       <p>
-        Peter Robson is an artist who paints surreal images, often presenting
-        politically-driven events, to provoke questions on the decisions and
-        actions of those in power and those that have grabbed power.
-      </p>
-      <p>
-        He originates from the North-East of England and now lives in Hexham in
-        Northumberland. However, he has travelled widely and has lived in
-        London, Bradford and Derby to name a few along with Spain for a short
-        time.
-      </p>
-      <p>
-        He has always painted and working in Social and Probation settings has
-        completely informed his creativity at times as did when he watched as a
-        teenager the horrendous carpet bombing of Vietnam. After this 'dawn' he
-        became politically active, which he does not separate from his
-        creativity. Painting is how he documents the world and attempts to make
-        sense of this.
-      </p>
-      <p>
-        Peter has exhibited work consistently since 2012, including at the
-        'Spanish Civil War Gallery' near Barcelona in 2018, also during 2015 at
-        the 'Water Street Gallery', Todmorden, 'The Fuse' Gallery, Bradford, the
-        exhibition space at 'Bradford Brewery', Westgate, 'Bradford Playhouse
-        Theatre', and at the 'Park Lane Centre' in Cleckheaton. More up to date
-        in 2019; 'The Exchange' art warehouse in North Shields and the
-        Washington Arts Centre County Durham along with 2020 'The Hive' Nenthead
-        Arts Centre in Cumbria. His paintings – a critique of war, power,
-        resolution and peace were featured in the ‘Unobtania’ exhibition, at
-        Bradford Cathedral in May and June 2016, to remember the 100 year
-        anniversary of the Bradford pals and the slaughter of life on the Somme
-        battlefields of WW1.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
       </p>
     </StyledAbout>
   )

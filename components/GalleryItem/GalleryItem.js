@@ -16,7 +16,7 @@ export default function GalleryItem(props) {
       <Link as={`works/${id}`} href="/works/[id]">
         <StyledGalleryItemImageContainer>
           <Image
-            src={`/images/${id}.jpg`}
+            src={`https://source.unsplash.com/800x600`}
             alt={`The painting ${title}, created in ${year}.`}
             layout="fill"
             objectFit="cover"
