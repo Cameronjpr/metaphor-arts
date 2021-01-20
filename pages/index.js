@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Metaphor Arts</title>
         <meta
-          description="The personal website and gallery of the artist Peter Robson."
+          description="The personal website and gallery of the artist Artist Name."
           lang="en-US"
           name="viewport"
           content="initial-scale=1.0, width=device-width"
